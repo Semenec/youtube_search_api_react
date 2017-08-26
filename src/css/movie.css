@@ -1,0 +1,27 @@
+.movie {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.movie input {
+  border: none;
+  padding: 10px;
+  background-color: #d2d2d2;
+  transition: ease 2s all;
+  font-size: 17px;
+}
+.movie input:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+iframe {
+  -ms-align-self: flex-end;
+  align-self: flex-end;
+  margin: 0 auto;
+  border: none;
+}

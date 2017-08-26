@@ -1,0 +1,29 @@
+.header {
+  background-color: #f55050;
+  padding: 20px;
+}
+.header_input {
+  width: 90%;
+  height: 25px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.header_input::placeholder {
+  color: #999;
+}
+
+.header_btn {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 6px 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 2s all
+}
+.header_btn:hover {
+  background-color: #dad8d8;
+}
