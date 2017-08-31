@@ -1,0 +1,2 @@
+export const GET_LOADING = 'GET_LOADING',
+             SUCCES_LOADING = 'SUCCES_LOADING'

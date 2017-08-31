@@ -1,14 +1,13 @@
-export default function video(state = [], action) {
+import { GET_VIDEO_SUCCESS } from '../constants/actionsTypes';
 
-if(action.type === 'GET_VIDEO_SUCCESS') {
-    return [
-      ...state, action.video
-    ]
-  } else if (action.type === 'GET_VIDEO_SEARCH') {
-    state = []
-    return state
-  }
-  else {
-    return state
+export default function video(state = [], action) {
+  switch (action.type) {
+    case GET_VIDEO_SUCCESS:
+      return [
+      state = action.video
+      ]
+    default:
+      return state;
+
   }
 }
